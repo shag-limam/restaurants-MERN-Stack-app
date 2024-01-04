@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .pagination button:hover {
+    background-color: #ddd;
+  }
+  
+
+
+  /* Exemple de styles CSS pour les boutons et la pagination */
+/* Changez les couleurs selon vos préférences */
+.custom-button {
+  /* Vos styles personnalisés pour les boutons */
+  padding: 8px 16px;
+  border: 1px solid #000;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.pagination {
+  /* Vos styles personnalisés pour la barre de pagination */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  /* Styles pour chaque bouton de pagination */
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.pagination button:hover {
+  /* Styles au survol des boutons de pagination */
+  background-color: #333;
+  color: #fff;
+}
