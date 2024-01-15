@@ -19,7 +19,7 @@ const EditRestaurant = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:5555/restaurants/${id}`)
+      .get(`https://nodejs-restapi-qeuq.onrender.com//restaurants/${id}`)
       .then((response) => {
         setName(response.data.name);
         setCuisine(response.data.cuisine);
