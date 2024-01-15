@@ -55,3 +55,59 @@
   background-color: #333;
   color: #fff;
 }
+
+
+/* RestaurantStatistics.css */
+
+.restaurant-statistics-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-statistics-container h2 {
+  color: #333;
+}
+
+.restaurant-statistics-container p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+
+/* RestaurantStatistics.css */
+.statistics-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn 1s ease-in;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.statistic {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.statistic:hover {
+  transform: scale(1.02);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
