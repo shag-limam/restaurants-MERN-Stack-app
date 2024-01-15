@@ -48,7 +48,7 @@ const EditRestaurant = () => {
 
     setLoading(true);
     axios
-      .put(`http://localhost:5555/restaurants/${id}`, data)
+      .put(`https://nodejs-restapi-qeuq.onrender.com/restaurants/${id}`, data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Restaurant edited successfully', { variant: 'success' });

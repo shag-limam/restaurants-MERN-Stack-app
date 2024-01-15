@@ -15,7 +15,7 @@ const RestaurantStatistics = () => {
   useEffect(() => {
     const fetchStatistics = async () => {
       try {
-        const response = await axios.get('http://localhost:5555/restaurants/');
+        const response = await axios.get('https://nodejs-restapi-qeuq.onrender.com/restaurants/');
         const restaurants = response.data.data;
 
         // Statistiques basées sur les restaurants

@@ -29,7 +29,7 @@ const CreateRestaurants = () => {
     };
     setLoading(true);
     axios
-      .post('http://localhost:5555/restaurants/', data)
+      .post('https://nodejs-restapi-qeuq.onrender.com/restaurants/', data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Restaurant created successfully', { variant: 'success' });

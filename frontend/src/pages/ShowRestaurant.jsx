@@ -12,7 +12,7 @@ const ShowRestaurant = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:5555/restaurants/${id}`)
+      .get(`https://nodejs-restapi-qeuq.onrender.com/restaurants/${id}`)
       .then((response) => {
         setRestaurant(response.data);
         setLoading(false);

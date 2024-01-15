@@ -95,7 +95,7 @@ const Home = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get('http://localhost:5555/restaurants')
+      .get('https://nodejs-restapi-qeuq.onrender.com/restaurants')
       .then((response) => {
         setRestaurants(response.data.data);
         setLoading(false);

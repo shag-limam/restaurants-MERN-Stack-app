@@ -14,7 +14,7 @@ const DeleteRestaurant = () => {
   const handleDeleteRestaurant = () => {
     setLoading(true);
     axios
-      .delete(`http://localhost:5555/restaurants/${id}`)
+      .delete(`https://nodejs-restapi-qeuq.onrender.com/restaurants/${id}`)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Restaurant deleted successfully', { variant: 'success' });
